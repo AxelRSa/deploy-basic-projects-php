@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title Manuel | Works
+	body 
+		h1 Ingresa tu página web
+		form(action="php/index.php" method="POST" enctype="multipart/form-data") 
+			label(for="") HTML
+			input(type="file", name="html")
+			br
+			label(for="") CSS
+			input(type="file", name="css")
+			br
+			label(for="") JS
+			input(type="file", name="js")
+			br
+			input(type="submit", value="Subir")
+		p *Leer antes de usar*: Esta página no genera un respaldo, reemplaza los viejos archivos con los nuevos, guarda tus proyectos. 
+		p Tu archivo HTML debe llamarse "index.html"
+		p Tu archivo CSS "styles.css"
+		p Tu archivo JS "script.js"
+
+		h2 para ver tu página web entra
+			a(href="pagina/" target="_blank")  aquí
